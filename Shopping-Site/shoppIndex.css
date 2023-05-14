@@ -1,0 +1,134 @@
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/shopping.jpeg");
+
+  /* Set a specific height */
+  height: 70%;
+  width: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}
+
+  .booknow{
+    background-color: red;
+    border-radius: 8px;
+    border: none;
+  }
+
+.book{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.book:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  #nav-link:hover {
+    color: red;
+    text-decoration: none;
+    /* font-weight: bold; */
+  }
+.navBar{
+    margin-bottom: 5px;
+}
+
+.jumbotron{
+    background-color: red;
+    color: white;
+    margin: 65px;
+    border-radius: 0px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+
+
+  Clear floats after image containers
+  .row::after {
+    clear: both;
+    display: table;
+  }
+  
+  .suits{
+    width: 98.5%;
+  }
+
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    display: flex;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+.product{
+    display: flex;
+}
+#suitimg{
+    height: 450px;
+}
+
+
+
+.footer{
+    background-color: red;
+    color: white;
+}
+.footer.li{
+    color: white;
+}
+#foot-button{
+    background-color: white;
+    color: red;
+    border-radius: 2px;
+}
